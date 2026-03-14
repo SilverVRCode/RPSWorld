@@ -3,12 +3,15 @@
 <template>
   <div id="navbar">
     <div id="left-nav">
-      <RouterLink to="/" id="title-text" class="nav-items">Scissors</RouterLink>
-      <RouterLink to="about">About</RouterLink>
+      <nav>
+        <RouterLink to="/" id="title-text" class="nav-items">Scissors</RouterLink>
+        <RouterLink to="about">About</RouterLink>
+      </nav>
     </div>
     <div id="right-nav">
 
     </div>
+
   </div>
   <main>
     <router-view />
